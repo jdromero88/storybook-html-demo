@@ -1,0 +1,35 @@
+{
+  "name": "storybook-html-demo",
+  "version": "1.0.0",
+  "description": "Storybook with html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdromero88/storybook-html-demo.git"
+  },
+  "keywords": [
+    "storybook",
+    "html"
+  ],
+  "author": "José Romero",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jdromero88/storybook-html-demo/issues"
+  },
+  "homepage": "https://github.com/jdromero88/storybook-html-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/html": "^6.4.9",
+    "babel-loader": "^8.2.3",
+    "storybook-addon-designs": "^6.2.0"
+  },
+  "dependencies": {}
+}

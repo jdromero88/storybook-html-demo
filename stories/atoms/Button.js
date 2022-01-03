@@ -1,5 +1,5 @@
 import "./Button.css";
-// import Icons from "../assets/icons/icons.svg";
+import Icons from "../assets/icons/icons.svg";
 
 export const createButton = ({
   size,

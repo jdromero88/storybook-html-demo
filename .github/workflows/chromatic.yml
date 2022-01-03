@@ -14,13 +14,13 @@ jobs:
     # Job steps
     steps:
       # - uses: actions/checkout@v1
-      # - run: npm run chromatic
+      - run: npm run chromatic
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
-          package-manager: npm
-          command: chromatic
+          # package-manager: npm
+          # command: chromatic
           #👇 Chromatic projectToken,
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}

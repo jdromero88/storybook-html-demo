@@ -34,15 +34,7 @@ export const createPage = ({ user, onLogout, onLogin, onCreateAccount }) => {
         using Storybook.
       </li>
     </ul>
-    <p>
-      Get a guided tutorial on component-driven development at
-      <a href="https://storybook.js.org/tutorials/" target="_blank" rel="noopener noreferrer">
-        Storybook tutorials
-      </a>
-      . Read more in the
-      <a href="https://storybook.js.org/docs" target="_blank" rel="noopener noreferrer">docs</a>
-      .
-    </p>
+
     <div class="tip-wrapper">
       <span class="tip">Tip</span>
       Adjust the width of the canvas with the
@@ -58,6 +50,15 @@ export const createPage = ({ user, onLogout, onLogin, onCreateAccount }) => {
       </svg>
       Viewports addon in the toolbar
     </div>
+    <p>
+      Get a guided tutorial on component-driven development at
+      <a href="https://storybook.js.org/tutorials/" target="_blank" rel="noopener noreferrer">
+        Storybook tutorials
+      </a>
+      . Read more in the
+      <a href="https://storybook.js.org/docs" target="_blank" rel="noopener noreferrer">docs</a>
+      .
+    </p>
   </section>
 `;
 

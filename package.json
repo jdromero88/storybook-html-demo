@@ -1,13 +1,14 @@
 {
-  "name": "storybook-html-demo",
+  "name": "@jdromero88/storybook-html-demo",
   "version": "1.0.0",
-  "description": "Storybook with html",
-  "main": "index.js",
+  "description": "Storybook design system with html",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic"
+    "chromatic": "npx chromatic",
+    "build": "cross-env BABEL_ENV=production babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/jdromero88/storybook-html-demo#readme",
   "devDependencies": {
+    "@babel/cli": "^7.16.7",
     "@babel/core": "^7.16.7",
     "@storybook/addon-a11y": "^6.4.9",
     "@storybook/addon-actions": "^6.4.9",
@@ -32,6 +34,7 @@
     "@storybook/html": "^6.4.9",
     "babel-loader": "^8.2.3",
     "chromatic": "^6.3.3",
+    "cross-env": "^7.0.3",
     "storybook-addon-designs": "^6.2.0"
   },
   "dependencies": {}

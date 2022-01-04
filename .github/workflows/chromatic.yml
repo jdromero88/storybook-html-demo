@@ -14,6 +14,8 @@ jobs:
     # Job steps
     steps:
       - uses: actions/checkout@v1
+      with:
+        node-version: '14.x'
       - run: npm run chromatic
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1

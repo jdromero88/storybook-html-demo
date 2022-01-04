@@ -2,7 +2,7 @@ import { withDesign } from "storybook-addon-designs"
 import { createButtonGroup } from "./ButtonGroup"
 
 export default {
-  title: 'Components/ButtonGroup',
+  title: 'Molecules/ButtonGroup',
   component: createButtonGroup,
   decorators: [withDesign],
   argTypes: {

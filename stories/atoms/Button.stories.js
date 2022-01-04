@@ -2,7 +2,7 @@ import { withDesign } from "storybook-addon-designs"
 import { createButton } from "./Button"
 
 export default {
-  title: 'Components/Button',
+  title: 'Atoms/Button',
   component: createButton,
   decorators: [withDesign],
   argTypes: {

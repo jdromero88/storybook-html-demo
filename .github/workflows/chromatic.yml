@@ -22,5 +22,5 @@ jobs:
           # package-manager: npm
           # command: chromatic
           #👇 Chromatic projectToken,
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}

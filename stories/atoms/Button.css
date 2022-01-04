@@ -1,0 +1,128 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  width: fit-content;
+  text-align: center;
+  text-transform: capitalize;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.btn:hover {
+
+}
+
+
+.btn:not([disabled]) {
+  cursor: pointer;
+}
+
+.btn:disabled,
+.btn[disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Sizes */
+.btn--small {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.btn--medium {
+  padding: 10px 16px;
+  font-size: 16px;
+}
+
+.btn--large {
+  padding: 12px 20px;
+  font-size: 18px;
+}
+
+/* Styles */
+.btn--filled {
+  /* accent/primary--300* */
+  background: #0065A4;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn--filled:hover,
+.btn--filled:focus {
+  /* accent/primary--200 */
+  background: #00497A;
+  /* border-radius: 2px; */
+}
+
+.btn--filled:focus {
+  outline: 2px solid #4094FE;
+}
+
+.btn--filled:disabled,
+.btn--filled[disabled] {
+  /* text/white--190 */
+  color: rgba(255, 255, 255, 0.9);
+  /* bg/dark-120 */
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.btn--outlined {
+  /* accent/primary--300* */
+  color: #0065A4;
+  border: 1px solid #0065A4;
+  /* border-radius: 2px; */
+}
+
+.btn--outlined:hover {
+  /* border: 2px solid #4094FE; */
+  /* text/white--190 */
+  color: rgba(255, 255, 255, 0.9);
+  background: #0065A4;
+}
+
+.btn--outlined:focus {
+  /* accent/primary--600 */
+  background: #E6F0F9;
+  /* text/black--190 */
+  color: rgba(0, 0, 0, 0.9);
+  /* focus/focus--100 */
+  outline: 2px solid #4094FE;
+}
+
+.btn--outlined:disabled,
+.btn--outlined[disabled] {
+  /* text/black--140 */
+  color: rgba(0, 0, 0, 0.4);
+  /* border/dark--115 */
+  border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.btn--ghost {
+  /* accent/primary--300* */
+  color: #0065A4;
+}
+
+.btn--ghost:hover,
+.btn--ghost:focus {
+  /* accent/primary--200 */
+  color: #00497A;
+}
+
+.btn--ghost:focus {
+  /* focus/focus--300 */
+  background: rgba(171, 212, 251, 0.5);
+}
+
+.btn--ghost:disabled,
+.btn--ghost[disabled] {
+  /* text/black--140 */
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* .leading--icon {
+  padding-left: ;
+} */

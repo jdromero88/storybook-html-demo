@@ -1,5 +1,6 @@
 import { createButton } from "../atoms/Button";
-import './ButtonGroup.css'
+// import './ButtonGroup.css'
+import "../assets/css/molecules/ButtonGroup.css"
 export const createButtonGroup = ({
   quantity = 3,
   style,

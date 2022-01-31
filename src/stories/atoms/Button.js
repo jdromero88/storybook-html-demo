@@ -1,4 +1,6 @@
-import "./Button.css";
+// import "./Button.scss";
+// import "../assets/css/Button.css";
+import "../assets/css/atoms/Button.css";
 import Icons from "../assets/icons/icons.svg";
 
 export const createButton = ({
